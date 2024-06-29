@@ -1,5 +1,8 @@
 ## Title: Potential Griefing in Reward Distribution
 
+### severity
+ High
+
 ### Description
 
 #### Intro

@@ -1,5 +1,8 @@
 ## Title: by staking very small amount of tokens,attacker steals the user funds and here user gets 0 shares in return
 
+### severity
+ High
+
 ### Description
 
 #### Intro

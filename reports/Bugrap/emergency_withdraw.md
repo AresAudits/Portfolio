@@ -1,5 +1,8 @@
 ## Title: WAVAX rewards or native tokens or eth will be permanently locked in YieldSource Contract
 
+### severity
+ Med
+
 ### Description
 
 #### Intro

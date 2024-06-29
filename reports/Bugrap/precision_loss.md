@@ -1,5 +1,8 @@
 ## Title: precision loss in _calculateBoxPrice() function leads to loss of funds    
 
+### severity
+ Med
+
 ### Description
 
 #### Intro

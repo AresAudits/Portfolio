@@ -1,5 +1,8 @@
 ## Title: Improper Authorization in `claimReward()` Function
 
+### severity
+ Med
+
 ### Issue Description
 
 **Bug Description:**

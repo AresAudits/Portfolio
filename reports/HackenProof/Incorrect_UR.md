@@ -1,5 +1,8 @@
 ## Title: Incorrect Utilization Rate Calculation Leads to Inaccurate Borrow Rate in getBorrowRate() Function
 
+### severity
+ High
+
 ### Description
 
 In `stablePrimaryInterestModel` i.e in `InterestRateModelV2` contract,i found out

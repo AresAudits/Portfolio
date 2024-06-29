@@ -1,5 +1,8 @@
 ## Title: incorrect use of abi.encodePacked leads to hash collisions
 
+### severity
+ Low
+
 ### Description
 
 #### Intro

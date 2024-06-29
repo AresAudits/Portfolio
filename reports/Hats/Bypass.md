@@ -1,5 +1,8 @@
 ## Title: Bypass of isSafe Validation Allows Malicious Contract Registrations and Spam the Palmera Module contracts with System-Wide Exploitation
 
+### severity
+ High
+
 ### Description
 
 The isSafe function in the Helpers contract is designed to validate whether a given address is a Safe Smart Account Wallet. However, this validation can potentially be bypassed by a malicious contract that mimics the behavior of a Safe Smart Account Wallet. This issue can lead to unauthorized access, spamming of data structures, Denial of Service (DoS) attacks, compromised security and governance.

@@ -1,5 +1,8 @@
 ## Title: Improper Validation in depositEth Function Allows Bypassing of Pool Type Checks which allow Direct Manipulation of Dai Holdings
 
+### severity
+ Med
+
 ### Description
 
 #### Intro

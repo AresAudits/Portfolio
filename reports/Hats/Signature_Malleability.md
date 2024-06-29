@@ -1,5 +1,8 @@
 ## Title: Signature Malleability in WebAuthn.sol
 
+### severity
+ High
+
 ### Description
 
 The WebAuthn.sol library is designed to verify valid signatures and prevent signature malleability. However, in the verifySignature function, there is an incorrect function call. Instead of calling the verifySignature function in P256.sol, which checks if s > _N_DIV_2, it calls the verifySignatureAllowMalleability function. This oversight allows attackers to slightly modify the signature without invalidating it, potentially bypassing signature validity measures

@@ -1,5 +1,8 @@
 ## Title: processAndSortSignatures Function Fails to Handle Multiple Valid Signatures for Owners, Leading to Reversions in checkNSignatures Function if Threshold is Greater Than 1
 
+### severity
+ Med
+
 ### Description
 
 The processAndSortSignatures function in the Helpers contract is designed to process and sort signatures for a Safe Multisig Wallet transaction. However, the current implementation only includes the first valid signature for each owner and ignores any subsequent valid signatures. This behavior can lead to incomplete signature validation and potential issues in transaction processing, especially when the checkNSignatures function in safe contract requires multiple valid signatures to meet the threshold.

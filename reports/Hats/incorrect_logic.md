@@ -1,5 +1,8 @@
 ## Title: user tokens will be fully vested before the duration,incorrect logic implementation
 
+### severity
+ Med
+
 ### Description
 
 #### vulnerability details

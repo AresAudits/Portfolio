@@ -1,5 +1,8 @@
 ## Title: Potential Vulnerability in execTransactionOnBehalf Function Allowing Destruction of targetSafe contract
 
+### severity
+ Med
+
 ### Description
 
 The execTransactionOnBehalf function in the PalmeraModule contract allows certain roles (Safe Lead, Super Safe, Root Safe) to execute transactions on behalf. However, there is a potential vulnerability that can be exploited if the to address is malicious. Specifically, if the operation is set to Enum.Operation.DelegateCall, a malicious contract at the to address can execute a selfdestruct operation, leading to the destruction of the targetSafe contract. This can severely disrupt the organization by breaking contract modules and halting all transactions.
