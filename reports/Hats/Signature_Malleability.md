@@ -1,7 +1,7 @@
 ## Title: Signature Malleability in WebAuthn.sol
 
 ### severity
- High
+ Med
 
 ### Description
 
