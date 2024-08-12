@@ -3,6 +3,9 @@
 ### severity
 Medium
 
+### Link to the issue
+https://github.com/hats-finance/Palmera-0x5fee7541ddcd51ba9f4af606f87b2c42eea655be/issues/78
+
 ### Description
 `getPreviewModule()` function in the Helpers.sol returns the 25 modules.However, there is a bug in the external call to safe.getModulesPaginated. In the version of Safe contracts that Palmera is using (version 1.3.0), the getPreviewModules() function returns an incorrect next pointer, resulting in incorrect data being returned. This issue has been fixed in newer versions of Safe contracts, but Palmera still uses version 1.3.0.
 
