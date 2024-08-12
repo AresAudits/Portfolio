@@ -131,4 +131,4 @@ function execTransactionOnBehalf(
 ```
 
 
-To mitigate this vulnerability, additional checks should be implemented to ensure the to address is not malicious. Specifically, avoid using delegatecall with untrusted addresses
+To mitigate The vulnerability, additional checks should be implemented to ensure the to address is not malicious. Specifically, avoid using delegatecall with untrusted addresses
