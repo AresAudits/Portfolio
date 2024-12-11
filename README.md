@@ -27,6 +27,8 @@ I am passionate about blockchain technology, cryptography, and secure coding pra
 |  | user tokens will be fully vested before the duration,incorrect logic implementation | Medium | [Link](/reports/Hats/incorrect_logic.md)
 |  | processAndSortSignatures Function Fails to Handle Multiple Valid Signatures for Owners, Leading to Reversions in checkNSignatures Function if Threshold is Greater Than 1 | Medium | [Link](/reports/Hats/palmera.md)
 |[Sherlock](https://www.sherlock.xyz/)   | Improper Validation in depositEth Function Allows Bypassing of Pool Type Checks which allow Direct Manipulation of Dai Holdings         | Medium     | [Link](/reports/Sherlock/Improper_Validation.md)
+|  | Incorrect Handling of Fee-on-Transfer Tokens in ManagedBudget | Medium | [Link](https://github.com/sherlock-audit/2024-06-boost-aa-wallet-judging/issues/394)
+|  | Approval Race Condition for USDT Token | Medium | [Link](https://github.com/sherlock-audit/2024-08-sentiment-v2-judging/issues/593)
 
 
 
