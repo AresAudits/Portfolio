@@ -11,6 +11,11 @@ I am passionate about blockchain technology, cryptography, and secure coding pra
 
 |Platform       | Title                     | Severity   | Link
 --------------  | ------------------------- | ---------- | -------------------------------------
+| [CodeHawks](https://codehawks.cyfrin.io/) | Allowance issue in transfer function | High | [Link](https://codehawks.cyfrin.io/c/2024-08-tadle/s/1552)
+|  | AuthorityRate can be bypassed | High | [Link](https://codehawks.cyfrin.io/c/2024-08-tadle/s/1716)
+|  | Reentrancy in withdraw() function | High | [Link](https://codehawks.cyfrin.io/c/2024-08-tadle/s/1672)
+|  | Platform Fees Can Be Bypassed for Low Decimal Standard ERC20 Tokens | Medium | [Link](https://codehawks.cyfrin.io/c/2024-08-tadle/s/1706)
+|  | EIP712MetaTransaction.executeMetaTransaction() failed txs are open to replay attacks | Medium | [Link](https://codehawks.cyfrin.io/c/2024-11-one-world/s/836)
 |[BugRap](https://bugrap.io/)   | by staking very small amount of tokens,attacker steals the user funds and here user gets 0 shares in return         | High       | [Link](/reports/Bugrap/donation_attack.md)
 |                               | [WAVAX rewards or native tokens or eth will be permanently locked in YieldSource Contract]  | Medium | [link](/reports/Bugrap/emergency_withdraw.md)
 |               | precision loss in _calculateBoxPrice() function leads to loss of funds | Medium | [Link](/reports/Bugrap/precision_loss.md)
@@ -22,6 +27,7 @@ I am passionate about blockchain technology, cryptography, and secure coding pra
 |  | user tokens will be fully vested before the duration,incorrect logic implementation | Medium | [Link](/reports/Hats/incorrect_logic.md)
 |  | processAndSortSignatures Function Fails to Handle Multiple Valid Signatures for Owners, Leading to Reversions in checkNSignatures Function if Threshold is Greater Than 1 | Medium | [Link](/reports/Hats/palmera.md)
 |[Sherlock](https://www.sherlock.xyz/)   | Improper Validation in depositEth Function Allows Bypassing of Pool Type Checks which allow Direct Manipulation of Dai Holdings         | Medium     | [Link](/reports/Sherlock/Improper_Validation.md)
+
 
 
 ## 🌐 Connect with Me
