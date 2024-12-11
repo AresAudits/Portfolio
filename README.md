@@ -16,6 +16,8 @@ I am passionate about blockchain technology, cryptography, and secure coding pra
 |  | Reentrancy in withdraw() function | High | [Link](https://codehawks.cyfrin.io/c/2024-08-tadle/s/1672)
 |  | Platform Fees Can Be Bypassed for Low Decimal Standard ERC20 Tokens | Medium | [Link](https://codehawks.cyfrin.io/c/2024-08-tadle/s/1706)
 |  | EIP712MetaTransaction.executeMetaTransaction() failed txs are open to replay attacks | Medium | [Link](https://codehawks.cyfrin.io/c/2024-11-one-world/s/836)
+| [Cantina](https://cantina.xyz/) | Incorrect Fee Share is Applied to Overridden Referrers in Beekeeper::distributeFees() | High | private
+|  | Missing Expiration Check in HoneyLocker::withdrawERC721() and withdrawERC1155() | High | private
 |[BugRap](https://bugrap.io/)   | by staking very small amount of tokens,attacker steals the user funds and here user gets 0 shares in return         | High       | [Link](/reports/Bugrap/donation_attack.md)
 |                               | [WAVAX rewards or native tokens or eth will be permanently locked in YieldSource Contract]  | Medium | [link](/reports/Bugrap/emergency_withdraw.md)
 |               | precision loss in _calculateBoxPrice() function leads to loss of funds | Medium | [Link](/reports/Bugrap/precision_loss.md)
@@ -29,6 +31,7 @@ I am passionate about blockchain technology, cryptography, and secure coding pra
 |[Sherlock](https://www.sherlock.xyz/)   | Improper Validation in depositEth Function Allows Bypassing of Pool Type Checks which allow Direct Manipulation of Dai Holdings         | Medium     | [Link](/reports/Sherlock/Improper_Validation.md)
 |  | Incorrect Handling of Fee-on-Transfer Tokens in ManagedBudget | Medium | [Link](https://github.com/sherlock-audit/2024-06-boost-aa-wallet-judging/issues/394)
 |  | Approval Race Condition for USDT Token | Medium | [Link](https://github.com/sherlock-audit/2024-08-sentiment-v2-judging/issues/593)
+| [Immunefi](https://immunefi.com/) | Unprotected Zero Amount Check in VaultV2::depositQuote() Allows Free 1e18 share Minting | High | private
 
 
 
